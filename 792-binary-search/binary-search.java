@@ -3,7 +3,9 @@ class Solution {
         int n = nums.length;
         int start = 0;
         int end = n-1;
-        int mid = (start + end)/2;
+        // int mid = (start + end)/2;
+        int mid = start + (start + end)/2;
+
 
         while(start <= end){
             //compare target with midvalue
